@@ -1,0 +1,50 @@
+[
+	{
+		"id": "0",
+		"photo": "../src/Data/ava.jpg",
+		"senderName": "Vova Taryk",
+		"subject": "Lorem ipsum dolor sit amet, consect. Vsit",
+		"body": "Hello Vova",
+		"time": "13:05"
+	},
+	{
+		"id": "1",
+		"photo": "../../../../../Data/ava.jpg",
+		"senderName": "Taras Novak",
+		"subject": "Lorem ipsum dolor sit amet, consect. Vsit dolor sit amet",
+		"body": "Hello Taras",
+		"time": "10:45"
+	},
+	{
+		"id": "2",
+		"photo": "../../../../../Data/ava.jpg",
+		"senderName": "Ira Varana",
+		"subject": "Lorem ipsum dolor sit ",
+		"body": "Hello Ira",
+		"time": "12:01"
+	},
+	{
+		"id": "3",
+		"photo": "../../../../../Data/ava.jpg",
+		"senderName": "Viktor Vanin",
+		"subject": "Lorem ipsum ",
+		"body": "Hello Viktor",
+		"time": "03:22"
+	},
+	{
+		"id": "4",
+		"photo": "../src/Data/ava.jpg",
+		"senderName": "Nazar Goran",
+		"subject": "Lorem ipsum dolor sit amet",
+		"body": "Hello Nazar",
+		"time": "13:05"
+	},
+	{
+		"id": "5",
+		"photo": "../../../../../Data/ava.jpg",
+		"senderName": "Vova Fedul",
+		"subject": "Lorem ipsum dolor sit dolor sit amet ipsum dolor sit amet",
+		"body": "Hello Vova",
+		"time": "12:01"
+	}
+]

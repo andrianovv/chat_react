@@ -1,0 +1,74 @@
+@import '../../../../style/variables.less';
+
+
+/* блок повідомлення юзерів */
+.messages-list{
+	display: flex;
+	flex-direction: column;
+	height: 435px;
+	padding-right: 30px;
+	padding-left: 30px;
+	overflow: auto;
+
+	// контейнер одного повідомлення
+	.post{
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+		flex-wrap: wrap;
+		max-width: 400px;
+	
+		span{
+			margin-top: 15px;
+			margin-bottom: 35px;
+			font-size: 13px;
+			color: @text-chat-messages;
+		}
+	}
+	
+	// власне повідомлення
+	.post_my{
+		
+		.post-text{
+			margin-left: 15px;
+			background-color: @bg-chat-messages_my;
+			color: @text-chat-messages_my;
+		}
+
+		span{
+			margin-right: 10px;
+		}
+		
+	}
+
+	// повідомлення інших юзерів
+	.post_other{
+		flex-direction: row-reverse;
+		align-self: flex-end;
+
+		.post-text{
+			margin-right: 15px;
+			background-color: @bg-chat-messages_other;
+			color: @text-chat-messages_other;
+		}
+
+		span{
+			margin-left: 10px;
+		}
+	}
+
+	// ава юзера
+	.user-photo{
+		margin-right: 0;
+	}	
+
+	// повідомлення юзера
+	.post-text{
+		word-wrap:break-word;
+		max-width: 330px;
+		padding: 20px 25px;
+		border-radius: 15px;
+	}
+}
+
+	

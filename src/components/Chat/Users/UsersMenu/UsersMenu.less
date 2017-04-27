@@ -1,0 +1,68 @@
+@import '../../../../style/variables.less';
+
+// блок меню юзерів
+.users-menu{
+	width: 100%;
+
+	// кнопка для відображення/приховування блоку юзерів
+	.btn-show{
+		padding-right: 3px;
+
+		i{
+			font-size: 37px;
+		}
+
+		.fa-angle-right{
+			margin-left: 6px;
+		}
+	}	
+
+	form{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	// блок пошуку 
+	.search{
+		display: flex;
+
+		> *{
+			background-color: @bg-chat_searh;
+		}
+	}
+
+	// поле для пошуку
+	input[type=text]{
+		width: 125px;
+		height: 35px;
+		padding-left: 10px;
+		border: none;
+		border-radius: 15px 0 0 15px;
+		color: @text-chat_search;
+	}
+
+	// кнопка пошуку
+	label[for=searh-friend]{
+		width: 40px;
+		height: 35px;
+		padding-top: 5px;
+		padding-left: 9px;
+		border-radius: 0 15px 15px 0;
+		cursor: pointer;
+
+		i{
+			font-size: 22px;
+			color: @bg-chat-btn_search;
+		}
+
+		&:hover i{
+			font-size: 24px;
+		}		
+	}
+
+	// кнопна меню
+	.btn-menu{
+		font-size: 25px;
+	}
+}
